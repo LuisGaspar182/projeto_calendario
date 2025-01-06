@@ -1,0 +1,19 @@
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# Vue.js
+node_modules/
+dist/
+.env
+
+# Geral
+.DS_Store
+.vscode/
+*.log
+
+# Ambiente virtual
+venv/
