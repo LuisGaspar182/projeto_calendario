@@ -15,7 +15,7 @@ meu-projeto/ ├── backend/ # Código do back-end ├── frontend/ # Cód
 
 - Instale as dependências no ambiente virtual:
   ```bash
-  cd backend
+  cd calendario
   python -m venv venv
   source venv/bin/activate  # Windows: venv\Scripts\activate
   pip install -r requirements.txt
