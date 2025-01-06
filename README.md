@@ -7,7 +7,7 @@ Este repositório contém um projeto com:
 
 ## Estrutura do Projeto
 
-meu-projeto/ ├── backend/ # Código do back-end ├── frontend/ # Código do front-end
+meu-projeto/ ├── calendario/ # Código do back-end ├── frontend/ # Código do front-end
 
 ## Como Configurar o Projeto
 
