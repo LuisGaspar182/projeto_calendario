@@ -1,6 +1,12 @@
-from django.urls import path
-from .views import HelloWorldView
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from .views import TatuadorViewSet, ClienteViewSet, TatuagemViewSet
+
+router = DefaultRouter()
+router.register('tatuadores', TatuadorViewSet)
+router.register('clientes', ClienteViewSet)
+router.register('tatuagens', TatuagemViewSet)
 
 urlpatterns = [
-    path('api/hello/', HelloWorldView.as_view(), name='hello_world'),
+    path('api/', include(router.urls)),
 ]

@@ -5,11 +5,15 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from './views/ViewHome.vue';
 import Calendario from './views/ViewCalendario.vue';
 import Tarefas from './views/ViewTarefas.vue';
+import GerenciarTatuador from './views/ViewGerenciarTatuador.vue';
+import GerenciarTatuagem from './views/ViewGerenciarTatuagem.vue';
 
 const routes = [
     {path: '/', component: Home},
     {path: '/calendario', component: Calendario},
     {path: '/tarefas', component: Tarefas},
+    {path: '/admin/tatuador', component: GerenciarTatuador},
+    {path: '/admin/tatuagem', component: GerenciarTatuagem},
   ];
   
   const router = createRouter({
